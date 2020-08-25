@@ -1,0 +1,54 @@
+<div>
+    <h2> Grocery list manager </h2>
+
+    <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="enter grocery items" [(ngModel)]="task.name" />
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-primary" type="button" (click)="onClick()">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+
+            <ul class="list-group">
+                <li *ngFor="let task of tasks" class="list-group-item">
+                    <div (click)="onStrike(task)" [ngClass]="{'strike': task.strike}">
+                    <span> {{ task.name }} </span>
+                    <span (click)="onEdit(task)" id="edit"><i class="fas fa-pencil-alt"></i></span>
+                    <span id="delete" (click)="onDelete(task)"><i class="far fa-trash-alt" ></i></span>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div>
+  <h2> Grocery list manager </h2>
+
+  <div class="row">
+      <div class="col-xs-6 col-md-4">
+          <div class="input-group">
+              <input type="text" class="form-control" placeholder="enter grocery items" [(ngModel)]="task" />
+              <div class="input-group-btn">
+                  <button class="btn btn-primary" type="button" (click)="onClick()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+              </div>
+          </div>
+      
+             <ul class="list-group">
+                <li *ngFor="let task of tasks" class="list-group-item">
+                    <span onclick="onStrike(task)" [ngClass]="{'strike': task.strike}"> {{ task.name }} </span>
+                    <span><i class="far fa-trash-alt" id="delete" (click)="onDelete(task)"></i></span>
+                    <span (click)="onEdit(task)" id="edit"><i class="fas fa-pencil-alt"></i>
+                    </span>          
+                 </li>
+             </ul>
+         </div>
+    </div>
+</div> -->

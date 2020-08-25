@@ -1,0 +1,34 @@
+[
+  {
+    "backgroundColor": "#161612",
+    "buttonColor": "#edf5fc",
+    "headingColor": "#21c063",
+    "textColor": "#fff",
+    "label": "Dark Mode",
+    "value": "dark-mode"
+  },
+  {
+    "backgroundColor": "#fff",
+    "buttonColor": "#fca311",
+    "headingColor": "#14213d",
+    "textColor": "#000",
+    "label": "Light Mode",
+    "value": "light-mode"
+  },
+  {
+    "backgroundColor": "#A5ACAF",
+    "buttonColor": "#69BE28",
+    "headingColor": "#002244",
+    "textColor": "#000",
+    "label": "Seahawks Mode",
+    "value": "seahawks-mode"
+  },
+  {
+    "backgroundColor": "#fff",
+    "buttonColor": "#003B6F",
+    "headingColor": "#003B6F",
+    "textColor": "#000",
+    "label": "Tardis Mode",
+    "value": "tardis-mode"
+  }
+]
