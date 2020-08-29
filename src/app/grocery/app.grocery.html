@@ -1,20 +1,25 @@
-<div>
-    <h2> Grocery list manager </h2>
 
-    <div class="row">
-        <div class="col-xs-6 col-md-4">
+<div id="container"> 
+ <nav class="navbar">
+        <span id="title"><h1><i class="fas fa-shopping-basket"></i>
+            Grocery List Manager</h1></span>
+    </nav>
+
+    <div class="row mx-auto">
+        <div class="col-xs-6 col-md-4 mx-auto">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="enter grocery items" [(ngModel)]="task.name" />
+                <input type="text" class="form-control" id="list-input" placeholder="enter grocery items" [(ngModel)]="task.name" />
                 <div class="input-group-btn">
-                    <button type="button" class="btn btn-primary" type="button" (click)="onClick()">
+                    <button type="button" class="btn btn-info" id="button" type="button" (click)="onClick()">
                         <i class="fas fa-plus"></i>
                     </button>
                 </div>
             </div>
 
-            <ul class="list-group">
-                <li *ngFor="let task of tasks" class="list-group-item">
-                    <div (click)="onStrike(task)" [ngClass]="{'strike': task.strike}">
+
+            <ul class="list-group" id="list">
+                <li *ngFor="let task of tasks" class="list-group-item" id="list-line">
+                    <div id ="list-items" (click)="onStrike(task)" [ngClass]="{'strike': task.strike}">
                     <span> {{ task.name }} </span>
                     <span (click)="onEdit(task)" id="edit"><i class="fas fa-pencil-alt"></i></span>
                     <span id="delete" (click)="onDelete(task)"><i class="far fa-trash-alt" ></i></span>
