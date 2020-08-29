@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
+It was based off of a tutorial found at https://code.tutsplus.com/tutorials/creating-a-grocery-list-manager-using-angular-part-1-add-display-items--cms-28586 however this tutorial was built using an outdated version of Angular and Bootstrap, so some changes were made including:
+- Use of Angular 10.0.5
+- Use of Bootstrap 4.5
+- Due to Bootstrap dropping glyphicon support in v4, used FontAwesome graphics
+- Added neumorphic styling
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
