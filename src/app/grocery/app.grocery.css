@@ -1,24 +1,22 @@
 #container{
   /* text-align: center; */
   padding: 40px;
-  height: 100vh;
-  background: #fff6f0;
+  height: 90vh;
+  width: 500px;
+  max-width: 80vw;
+  border: 2px black solid;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5vh;
 }
 
 #title{
   font-family: "Lekton";
   margin-bottom: 15px;
-  background: #fff6f0;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  border-radius: 50px;
   display: flex;
   width: 20em;
 }
@@ -29,43 +27,27 @@
 }
 
 #list-input{
-  background: #fff6f0;
-  box-shadow: 
-    10px 10px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  border-radius: 50px;
   border: none;
-  display: flex;
-  margin-right: 1em;
-  margin-bottom: 1.5em;
+  width: 75%;
+  /* display: flex; */
+  margin-right: .5em;
+  /* margin-bottom: 1em; */
+  border: black 2px solid;
 }
 
 #button{
-  background: #fff6f0;
-  color: black;
-  box-shadow: 
-  10px 10px 14px 0 rgba(0, 0, 0, 0.25),
-  -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   border: none;
   border-radius: 50px;
 }
 
 #list-items{
-  background: #fff6f0;
-  color: black;
-  box-shadow: 
-  10px 10px 14px 0 rgba(25,	24,	24, 0.25),
-  -8px -8px 12px 0 rgba(	153,	147,	144, 0.3);
   padding: 10px;
-  border: none;
-  border-radius: 50px;
+  border: black 2px solid;
 }
 
 #list-line{
-  background: #fff6f0;
   border: none;
   padding: 1em;
-  margin-bottom: 1em;
 }
 
 #list{
