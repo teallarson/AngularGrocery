@@ -6,7 +6,9 @@ It was based off of a tutorial found at https://code.tutsplus.com/tutorials/crea
 - Use of Angular 10.0.5
 - Use of Bootstrap 4.5
 - Due to Bootstrap dropping glyphicon support in v4, used FontAwesome graphics
-- Added neumorphic styling
+- Added custom CSS for a modern minimalist aesthetic while also maintaining high contrast for accesibility concerns.
+
+A video demonstration of this app's features can be viewed at: https://youtu.be/gXNX99Nj8X0
 
 ## Development server
 
